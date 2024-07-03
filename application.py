@@ -5,6 +5,7 @@ application = Flask(__name__)
 
 @application.route('/')
 def hello_world():
+    """
     NG = 0
     NP = 0
     MS = 0
@@ -33,5 +34,5 @@ def hello_world():
 
         continuer=int(input("Si vous voulez rejouer tapez 1 si non tapez 2")) 
     print("Vous avez gagné", NG, "parties.", "Vous avez perdu", NP, "parties, ", "Votre meilleur score est :",MS)
-
+    """
     return 'Je suis en stage chez Capgemini. [MAJ] Cela fait plus de deux semaines.'
